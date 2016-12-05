@@ -1,0 +1,88 @@
+body{
+	background: #EBF0F2;font-family: helvetica;
+}
+body,a,ul,ol,li,input,p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    border: 0;
+}
+a{
+    text-decoration: none;color:#fff;
+}
+/*消除默认样式*/
+a,button{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+button{
+	-webkit-appearance: none;
+}
+body{
+	/*禁止用户设置字体大小*/
+	-webkit-text-size-adjust: 100%;
+	/*禁止文字选中*/
+	-webkit-user-select: none;
+}
+header{
+	width:7.5rem;font-size:0.3rem;background: #fff;padding:0.3rem;box-sizing: border-box;line-height: 0.4rem;
+}
+header a{
+	display:block;width:6.9rem;font-size:0.3rem;background: #fff;box-sizing: border-box;line-height: 0.4rem;color:#000;
+}
+header a span{
+	font-size:0.3rem;
+}
+header span:nth-child(2){
+	position: absolute;top:0.5rem;left:1.5rem;
+}
+.container{
+	width:7.5rem;padding:0.3rem;box-sizing: border-box;background:#fff;
+}
+.container h4{
+	text-align: center;
+}
+img{
+	width:6.9rem;margin-top:0.2rem;
+}
+.container h6{
+	font-size:0.5rem;
+}
+.container p{
+	font-size:0.3rem;color:#666;margin:0.1rem 0;
+}
+.container span{
+	font-size:0.3rem;color: #000;
+}
+.iconfont{
+	font-size: 0.4rem;;
+}
+/*留言*/
+.reply{
+	width:6.9rem;background:#eee;padding:0.3rem;font-size:0.3rem;
+}
+.reply .reply-title{
+	width:6.9rem;height:1rem;
+}
+.reply .reply-title span{
+	display:block;color:#00C4BB;font-size: 0.35rem;text-align: right;
+}
+.reply .reply-con li{
+	width:6.9rem;height:2.3rem;display:flex;justify-content: space-around;padding:0.2rem 0;
+}
+.reply .left{
+	width:1rem;height:1rem;background:url(../img/show7.png);background-size:cover;
+}
+.reply .center{
+	width:4.5rem;height:2rem;
+}
+.reply .center span:nth-child(1){
+	display:block;font-size:0.32rem;line-height: 0.5rem;
+}
+.reply .center span:nth-child(2){
+	display:block;font-size:0.3rem;color:#333;
+}
+.reply .center span:nth-child(3){
+	display:block;font-size:0.28rem;line-height: 0.5rem;color:#999;
+}
