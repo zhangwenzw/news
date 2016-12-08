@@ -38,7 +38,7 @@ header span:nth-child(2){
 	position: absolute;top:0.5rem;left:1.5rem;
 }
 .container{
-	width:7.5rem;padding:0.3rem;box-sizing: border-box;background:#fff;
+	width:7.5rem;padding:0.3rem;box-sizing: border-box;background:#fff;overflow: hidden;
 }
 .container h4{
 	text-align: center;
@@ -47,26 +47,38 @@ img{
 	width:6.9rem;margin-top:0.2rem;
 }
 .container h6{
-	font-size:0.5rem;
+	font-size:0.4rem;
 }
 .container p{
-	font-size:0.3rem;color:#666;margin:0.1rem 0;
+	font-size:0.25rem;color:#666;margin:0.1rem 0;
+}
+.container .notice span{
+	font-size:0.25rem;
+}
+.import{
+	width:6.9rem;height:0.5rem;overflow: hidden;position: relative;text-align: center;
+}
+.import span{
+	width:3rem;hieght:0.2rem;position:absolute;top:0.06rem;left:0;right:0;margin:auto;background:#fff;
 }
 .container span{
-	font-size:0.3rem;color: #000;
+	font-size:0.25rem;color: #000;
 }
 .iconfont{
 	font-size: 0.4rem;;
 }
 /*留言*/
 .reply{
-	width:6.9rem;background:#eee;padding:0.3rem;font-size:0.3rem;
+	width:7.5rem;background:#eee;padding:0.3rem;font-size:0.3rem;box-sizing: border-box;
 }
 .reply .reply-title{
 	width:6.9rem;height:1rem;
 }
 .reply .reply-title span{
 	display:block;color:#00C4BB;font-size: 0.35rem;text-align: right;
+}
+.reply .reply-title .import span{
+	width:1.7rem;text-align: center;background: #eee;top:0;color:#333;
 }
 .reply .reply-con li{
 	width:6.9rem;height:2.3rem;display:flex;justify-content: space-around;padding:0.2rem 0;
@@ -75,14 +87,14 @@ img{
 	width:1rem;height:1rem;background:url(../img/show7.png);background-size:cover;
 }
 .reply .center{
-	width:4.5rem;height:2rem;
+	width:4.6rem;height:2rem;
 }
 .reply .center span:nth-child(1){
-	display:block;font-size:0.32rem;line-height: 0.5rem;
+	display:block;font-size:0.3rem;line-height: 0.5rem;
 }
 .reply .center span:nth-child(2){
-	display:block;font-size:0.3rem;color:#333;
+	display:block;font-size:0.25rem;color:#333;
 }
 .reply .center span:nth-child(3){
-	display:block;font-size:0.28rem;line-height: 0.5rem;color:#999;
+	display:block;font-size:0.2rem;line-height: 0.5rem;color:#999;
 }

@@ -11,5 +11,5 @@ function resize(origin,type){
     html.style.fontSize=scale+"px";
 }
 window.onload=function(){
-	resize(1334,"y");
+	resize(750);
 }

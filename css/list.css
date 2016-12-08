@@ -76,7 +76,7 @@ header span:nth-child(3){
 	text-align: left;
 }
 .wechat li:nth-child(3)>span{
-	float: right;
+	float: right;color:#666;
 }
 /*con*/
 .container{

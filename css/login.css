@@ -1,0 +1,181 @@
+body,a,ul,ol,li,input,p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+/*消除默认样式*/
+a,button{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+button{
+	-webkit-appearance: none;
+}
+body{
+	/*禁止用户设置字体大小*/
+	-webkit-text-size-adjust: 100%;
+	/*禁止文字选中*/
+	-webkit-user-select: none;
+}
+/*****************************************************************/
+a,div,p{
+	font-size: 0.35rem;
+}
+section{
+	width:7.5rem;height:13.34rem;position: relative;background: url(../img/startloginbj.png) bottom;background-size: cover;
+}
+section .login{
+	width:2rem;height:2rem;background:#00C4BB;border-radius: 50%;position: absolute;top: 5rem;left:0;right:0;margin:auto;text-align: center;line-height: 0.5rem;padding-top:0.4rem;box-sizing: border-box;
+}
+section .login a{
+	font-size: 0.5rem;color:#fff;
+}
+section .set{
+	width:1rem;height:1rem;background:#666;position: absolute;top: 5.4rem;right:1.3rem;border-radius: 50%;text-align: center;line-height: 1rem;font-size:0.4rem;
+}
+section .set a{
+	color:#fff;font-size:0.5rem;
+}
+section .circle{
+	width:0.25rem;height:0.25rem;background: #00C4BB;border-radius: 50%;position: absolute;right:1.2rem;top:5.3rem;
+}
+section .letter{
+	width:7.5rem;height:3rem;position: absolute;left:0;bottom:2.3rem;text-align: center;
+}
+section .letter p{
+	margin-bottom: 0.3rem;color:#333;
+}
+
+
+/*login*/
+.login-box{
+	width:7.5rem;height:13.34rem;background:rgba(0,0,0,.8);position: fixed;top:0;left:0;z-index: 999;
+}
+.login-box form{
+	width:6rem;height:7rem;background:#fff;position: absolute;top:2rem;left:0;right:0;margin:auto;border-radius: 0.3rem;padding:0.3rem;box-sizing: border-box;
+}
+.login-box form .title{
+	margin:0.5rem 0 0 0.2rem;
+}
+.login-box form .btn{
+	width:0.4rem;height:0.4rem;border:1px solid #333;border-radius:50%;text-align: center;line-height: 0.4rem;font-size:0.3rem;position: absolute;top:0.4rem;right:0.3rem;
+}
+.login-box form div:nth-child(3){
+	margin-top: 0.3rem;
+}
+.login-box form .name{
+	width:5.4rem;height:1rem;line-height: 1rem;border-bottom: 1px solid #ccc;box-sizing: border-box;padding-left:0.2rem;
+}
+.login-box form .active{
+	border-bottom: 1px solid #00C4BB;
+}
+.login-box form .name span{
+	margin-right:0.3rem;
+}
+.login-box form .name input{
+	border:0;color:#999;font-size: 0.27rem;;
+}
+.login-box form .name .iconfont{
+	font-size:0.4rem;
+}
+.login-box form .tishi{
+	width: 5rem;height:1.2rem;line-height: 1.2rem;margin:0 auto;
+}
+.login-box form .tishi a:nth-child(1){
+	font-size:0.25rem; color:#00C4BB;
+}
+.login-box form .tishi a:nth-child(2){
+	font-size:0.25rem;float: right;color:#333;
+}
+.login-box form>input{
+	width:5rem;height:0.8rem;background:#00C4BB;color:#fff;text-align: center;line-height: 0.7rem;border:0;border-radius: 0.5rem;font-size:0.3rem;display: block;margin:0 auto;
+}
+.login-box form>span{
+	display:block;font-size:0.2rem;line-height: 1.3rem;text-align: center;
+}
+.login-box form>span>a{
+	font-size:0.2rem;color:#00C4BB;
+}
+.login-box .login-box-bottom{
+	width:5.3rem;height:2rem;position: absolute;bottom:2rem;left:0;right:0;margin:auto;text-align: center;color:#fff;
+}
+.login-box .login-box-bottom span{
+	overflow: hidden;text-align: center;font-size:0.25rem;line-height: 1rem;;
+}
+.login-box .login-box-bottom div{
+	width:5.3rem;height:1rem;display: flex;justify-content: space-around;
+}
+.login-box .login-box-bottom div a{
+	width:0.7rem;height:0.7rem;text-align: center;line-height:0.7rem;border-radius: 50%;color:#fff;
+}
+.login-box .login-box-bottom div a:nth-child(1){
+	background: #15CF77;
+}
+.login-box .login-box-bottom div a:nth-child(2){
+	background: #1DA4DF;
+}
+.login-box .login-box-bottom div a:nth-child(3){
+	background: #ED5C5C;
+}
+
+/*底部*/
+footer{
+	width:100%;height:1.3rem;background:#000;position: fixed;bottom:0;left:0;font-size: 0.3rem;z-index:999;
+}
+footer .foot{
+	width:100%;height:100%;display:flex;align-items: center;justify-content: space-around;
+}
+footer .foot i{
+	font-style:normal;font-size:0.4rem;margin-left:0.1rem;font-family: helvetica;
+}
+footer .foot a{
+	color:#fff;
+}
+footer .foot-active a,footer .foot-active i{
+	color:#16A5AF;
+}
+
+
+
+/*************************  reg  **************************/
+header{
+	width:7.5rem;height:0.7rem;border-bottom:#999;font-size:0.3rem;text-align: center;line-height: 0.7rem;box-sizing: border-box;padding:0 0.3rem;
+}
+header span:nth-child(1){
+	float: left;
+}
+.reg{
+	width:7.5rem;height:7rem;box-sizing: border-box;padding:0 0.3rem;
+}
+.reg .name{
+	width:6.9rem;height:1rem;line-height: 1rem;border-bottom: 1px solid #ccc;box-sizing: border-box;padding-left:0.2rem;
+}
+.reg .active{
+	border-bottom: 1px solid #00C4BB;
+}
+.reg .name span{
+	margin-right:0.3rem;color:#333;
+}
+.reg .name a{
+	color: #3CB4BC;
+}
+.reg .name input{
+	border:0;color:#999;font-size: 0.27rem;;
+}
+.reg .name .iconfont{
+	font-size:0.4rem;
+}
+.reg>input{
+	width:5rem;height:0.8rem;background:#00C4BB;color:#fff;text-align: center;line-height: 0.7rem;border:0;border-radius: 0.5rem;font-size:0.3rem;display: block;margin:0 auto;margin-top:0.6rem;
+}
+.reg>span{
+	display:block;font-size:0.2rem;line-height: 1.3rem;text-align: center;
+}
+.reg>span>a{
+	font-size:0.2rem;color:#00C4BB;
+}

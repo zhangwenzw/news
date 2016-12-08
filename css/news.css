@@ -9,6 +9,19 @@ img{
 a{
     text-decoration: none;
 }
+/*消除默认样式*/
+a,button{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+button{
+	-webkit-appearance: none;
+}
+body{
+	/*禁止用户设置字体大小*/
+	-webkit-text-size-adjust: 100%;
+	/*禁止文字选中*/
+	-webkit-user-select: none;
+}
 /********************初始化样式*******************/
 .news-in{
 	width:7.5rem;height:13.34rem;background:url(../img/in.png) no-repeat;background-size: 100%;position: relative;
@@ -17,7 +30,7 @@ a{
 	display:block;width:1.5rem;height:1rem;position: absolute;bottom:0;right:0;font-size:0.3rem;color:#fff;
 }
 .news-in>a>span:last-child{
-	color: #00C4BB;position: absolute;top:0.1rem;right:0.2rem;font-size:0.5rem;font-weight:bold;cursor: pointer;animation: in 1.5s ease infinite;
+	color: #00C4BB;position: absolute;top:0;right:0.2rem;font-size:0.5rem;font-weight:bold;cursor: pointer;animation: in 1.5s ease infinite;
 }
 @keyframes in{
 	0%{
@@ -30,6 +43,9 @@ a{
 		opacity: 1;
 	}
 }
+.iconfont{
+	font-size:0.4rem;
+}
 
 /******************************  index2  ******************************/
 
@@ -38,7 +54,7 @@ header{
 	width:100%;height:1rem;background:#000;position: fixed;top:0;left:0;z-index: 999;
 }
 header>input{
-	width:95%;height:0.7rem;background:#fff;position: absolute;top:0;left:0;right:0;bottom: 0;margin:auto;border-radius:0.06rem;text-align: center;line-height: 0.3rem;font-size:0.3rem;
+	width:95%;height:0.7rem;background:#fff;position: absolute;top:0;left:0;right:0;bottom: 0;margin:auto;border-radius:0.06rem;text-align: center;line-height: 0.7rem;font-size:0.3rem;
 }
 
 .swiper-container{
@@ -164,14 +180,14 @@ header>input{
 	float:right;width:0.7rem;height:0.7rem;background:#16A5AF;color:#fff;text-align: center;line-height:0.7rem;font-size:0.6rem;border-radius:0.02rem;
 }
 .advice-con-img{
-	width:2rem;height:2rem;border:1px solid #ccc;border-radius: 0.05rem;float:left;background:url(../img/classify1.png) 100%;float: left;
+	width:2rem;height:2rem;border:1px solid #ccc;border-radius: 0.15rem;float:left;background:url(../img/classify1.png) no-repeat;background-size:cover;float: left;
 }
 .advice-con-con{
 	width:4rem;float:left;font-size: 0.3rem;margin-left:0.2rem;
 }
 /*底部*/
 footer{
-	width:100%;height:1rem;background:#000;position: fixed;bottom:0;left:0;font-size: 0.3rem;z-index:999;
+	width:100%;height:1.3rem;background:#000;position: fixed;bottom:0;left:0;font-size: 0.3rem;z-index:999;
 }
 footer .foot{
 	width:100%;height:100%;display:flex;align-items: center;justify-content: space-around;
